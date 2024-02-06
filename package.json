@@ -1,0 +1,35 @@
+{
+  "name": "theme-vdoing-blog",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node --max_old_space_size=4096 ./node_modules/vuepress/cli.js dev docs",
+    "build": "node --max_old_space_size=4096 ./node_modules/vuepress/cli.js build docs",
+    "compress:image": "node ./build/image.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "dayjs": "^1.9.7",
+    "inquirer": "^7.1.0",
+    "json2yaml": "^1.1.0",
+    "vuepress": "1.9.9",
+    "vuepress-plugin-baidu-autopush": "^1.0.1",
+    "vuepress-plugin-baidu-tongji": "^1.0.1",
+    "vuepress-plugin-comment": "^0.7.3",
+    "vuepress-plugin-demo-block": "^0.7.2",
+    "vuepress-plugin-fulltext-search": "^2.2.1",
+    "vuepress-plugin-one-click-copy": "^1.0.2",
+    "vuepress-plugin-sitemap": "^2.3.1",
+    "vuepress-plugin-thirdparty-search": "^1.0.2",
+    "vuepress-plugin-zooming": "^1.1.7",
+    "vuepress-theme-vdoing": "^1.12.9",
+    "yamljs": "^0.3.0"
+  },
+  "dependencies": {
+    "echarts": "^5.4.3",
+    "imagemin": "^7.0.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "images": "^3.2.4",
+    "tinify": "^1.7.1"
+  }
+}
