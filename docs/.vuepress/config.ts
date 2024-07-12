@@ -48,6 +48,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: 'parcel', link: '/pages/20240102094100/' },
           { text: 'z-index显示问题', link: '/pages/20240202165800/' },
           { text: '合并git库问题', link: '/pages/20240220155400/' },
+          { text: 'qiankun项目中引入百度地图SDK', link: '/pages/20240409133700/' },
         ],
       },
       {
